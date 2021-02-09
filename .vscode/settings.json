@@ -1,0 +1,15 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    // "http.proxy": "http://username:password@hostname:port/",
+    "http.proxyAuthorization": null,
+    "http.proxyStrictSSL": true,
+    
+    "eslint.workingDirectories": [
+        "./dir/containing/eslintrc_file",
+    ]
+    
+}

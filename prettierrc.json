@@ -1,0 +1,35 @@
+{
+    "semi": true,               
+    "tabWidth": 4,              
+    "singleQuote": true,        
+    "trailingComma": "all",    
+    "quoteProps": "as-needed"
+}
+
+// "semi"
+// (1)ESLint : 預設"always"，句尾結束補上分號；
+// (2)airbnb-style : 句尾結束補上分號；
+// (3)prettier : 句尾結束補上分號；
+
+// "tabWidth"
+// (1)ESLint 預設 4
+// (2)airbnb-style : 沒有設定
+// (3)prettier : 4
+
+//"singleQuote"
+// (1)ESLint 預設 "double" (default) >> 要改成"single"
+// (2)airbnb-style : 使用單引號
+// (3)prettier : 使用單引號
+
+
+//"trailingComma"
+// (1)ESLint : 預設 >>要改成"only-multiline" >> 在多行屬性內容的最後一行情況下，符號}結束在下一行，要加入逗號，符號}結束在同一行則不用。
+// (2)airbnb-style : 在多行屬性內容的最後一行要加逗號結束。
+// (3)prettier : 在多行屬性內容的最後一行要加逗號結束。
+
+// "quoteProps"   (大部份情況，物件屬性加入引號與否都沒差) 
+// (1)ESLint : 預設"always" 每個物件屬性都加引號  >> 要改成"as-needed"
+// (2)airbnb-style : Only quote properties that are invalid identifiers. 只在特定物件內屬性加入使用引號
+// (3)prettier : as-needed" 只在特定物件內屬性加入使用引號
+
+
